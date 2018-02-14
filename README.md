@@ -11,7 +11,7 @@ Note: this is a proof of concept app. To deploy this in production, your app nee
 * Account #1: primary account with Inbound Extension and Final Extensions (Default and Special)
 * Account #2: special account for IVR routing extension
 
-### Have 3 extensions:
+### Have 4 extensions:
 
 * Inbound Extension (Account #1) - where all users initially end up. This account will have:
   * Static forwarding rule to
