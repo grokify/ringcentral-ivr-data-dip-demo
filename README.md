@@ -40,27 +40,27 @@ Route an incoming call based on account look up with Caller ID.
 ## Configuration/Deployment Steps
 
 1. Create Final Default Extension on Account 1
-  1. Create Direct Number on Final Default Extension
+   1. Create Direct Number on Final Default Extension
 2. Create Final Special Extension on Account 2
-  1. Create Direct Number on Final Special Extension
+   1. Create Direct Number on Final Special Extension
 3. Create Routing Extension on Account 2
-  1. Create Direct Number on Routing Extension
-  2. Create Forwarding Number to Final Default Extension Direct Number on Routing Extension
-  3. Create Forwarding Number to Final Special Extension Direct Number on Routing Extension
-  4. Create Forwarding Rule to Final Default Extension on Routing Extension
-  5. Set Business Hours to 24 hrs.
+   1. Create Direct Number on Routing Extension
+   2. Create Forwarding Number to Final Default Extension Direct Number on Routing Extension
+   3. Create Forwarding Number to Final Special Extension Direct Number on Routing Extension
+   4. Create Forwarding Rule to Final Default Extension on Routing Extension
+   5. Set Business Hours to 24 hrs.
 4. Create Inbound Extension on Account 1
-  1. Create Inbound Extension Phone
-  2. Create Forwarding Number to Routing Number
-  3. Create Forwarding Rule Phone to Inbound Extension Phone
-  4. Create Forwarding Rule Phone to Routing Extension Phone
-  5. Set Business Hours to 24 hrs.
+   1. Create Inbound Extension Phone
+   2. Create Forwarding Number to Routing Number
+   3. Create Forwarding Rule Phone to Inbound Extension Phone
+   4. Create Forwarding Rule Phone to Routing Extension Phone
+   5. Set Business Hours to 24 hrs.
 5. Create App
-  1. Create Subscription for inbound calls on Inbound Extension
-  2. When Caller Id is seen, create Custom Forwarding Rule on Routing Extension
+   1. Create Subscription for inbound calls on Inbound Extension
+   2. When Caller Id is seen, create Custom Forwarding Rule on Routing Extension
 6. Make Call
-  1. Login into Default Final Extension and Special Final Extension.
-  2. Make inbound call to Inbound Extension with special handling Caller Id
+   1. Login into Default Final Extension and Special Final Extension.
+   2. Make inbound call to Inbound Extension with special handling Caller Id
 
 ## Installation
 
