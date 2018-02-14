@@ -1,0 +1,17 @@
+{
+  "name": "ringcentral-ivr-data-dip-demo",
+  "version": "0.0.1",
+  "description": "RingCentral IVR Data Dip Demo",
+  "scripts": {
+    "start": "node app",
+    "test": "./node_modules/mocha/bin/mocha test/**/*-test.js --reporter spec"
+  },
+  "author": "johncwang@gmail.com",
+  "license": "MIT",
+  "homepage": "https://github.com/grokify/ringcentral-ivr-data-dip-demo/",
+  "dependencies": {
+    "dotenv": "latest",
+    "ringcentral": "latest",
+    "vorpal": "latest"
+  }
+}
