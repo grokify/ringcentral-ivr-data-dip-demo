@@ -8,8 +8,8 @@ Note: this is a proof of concept app. To deploy this in production, your app nee
 
 ### Have 2 accounts:
 
-* Account #1: primary account with Inbound Extension and Final Extensions (Default and Special)
-* Account #2: special account for IVR routing extension
+* Account #1: primary account with Inbound Extension and Final Extensions (Default and Special).
+* Account #2: special account for IVR routing extension. This can be your developer account so you don't need to sign up for a second account.
 
 ### Have 4 extensions:
 
