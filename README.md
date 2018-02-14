@@ -2,6 +2,8 @@
 
 Route an incoming call based on account look up with Caller ID.
 
+Note: this is a proof of concept app. To deploy this in production, your app needs a usage plan that can make enough API calls to handle your call volume. You can manage reduce the API calls needed by caching or pre-loading custom forwarding rules to reduce real-time API calls.
+
 ## Overview
 
 ### Have 2 accounts:
