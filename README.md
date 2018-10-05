@@ -28,7 +28,7 @@ Note: this is a proof of concept app. To deploy this in production, your app nee
 
 ### Have 1 application:
 
-* Listen for presence vents on Inbound Extension. When a call is received, look up caller id value in database.
+* Listen for presence events on Inbound Extension. When a call is received, look up caller id value in database.
 * Create Custom Forwarding Rule based on Caller Id if Caller Id indicates Final Special Extension handling.
 
 ## Inbound call flow:
